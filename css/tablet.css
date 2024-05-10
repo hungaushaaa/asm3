@@ -1,0 +1,16 @@
+/* Sử dụng media query */
+
+@media screen and (max-width: 992px) {
+  a {
+    text-decoration: none;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .item1 {
+    display: flex;
+    flex-direction: row;
+  }
+}

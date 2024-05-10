@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- Cài Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <!-- Làm banner -->
+    <div id="banner">
+      <div class="text-in-img">
+        <h1>Vu Quoc Hung</h1>
+        <span>Developer</span>
+      </div>
+      <img src="images/banner.jpg" alt="Banner" width="100%" />
+    </div>
+
+    <!-- Làm nav bar -->
+    <section id="nav-bar">
+      <nav class="container">
+        <div class="border-close"></div>
+        <div class="nav-child">
+          <a href="#"
+            ><td><i class="icon-user"></i></td>
+            Thông tin</a
+          >
+        </div>
+        <div class="border-close"></div>
+        <div class="nav-child">
+          <a href="#"
+            ><td><i class="icon-doc-text-inv"></i></td>
+            Lý lịch</a
+          >
+        </div>
+        <div class="border-close"></div>
+        <div class="name">
+          <a href="#" class="cool-name">
+            <div class="title-name">Vu Quoc Hung</div>
+            <div class="subtitle">Developer</div>
+          </a>
+        </div>
+        <div class="border-close"></div>
+        <div class="nav-child">
+          <a href="#"
+            ><td><i class="icon-mail-alt"></i></td>
+            Chứng chỉ</a
+          >
+        </div>
+        <div class="border-close"></div>
+        <div class="nav-child">
+          <a href="#"
+            ><td><i class="icon-star-1"></i></td>
+            Dự Án</a
+          >
+        </div>
+        <div class="border-close"></div>
+      </nav>
+    </section>
+    <!-- Làm mtnn và ttcn -->
+    <section id="about" class="bg-grey">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-12 pt-5">
+            <div id="target">
+              <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+              <p>
+                Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh
+                Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+                <b>Developer</b>, có thể vận dụng những kiến thức đã được trau
+                dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn
+                thành tốt nhất công việc được giao.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-12 pt-5">
+            <div id="personal-info">
+              <h1 class="section-title">Thông tin cá nhân</h1>
+              <div class="infoe hidden">
+                <ul class="mt-40 info">
+                  <li><span>Giới tính</span> : Nam</li>
+                  <li><span>Ngày sinh</span> : 3/10/2011</li>
+                  <li><span>Điện thoại</span> : (+84) 94xxxxxxx</li>
+                  <li><span>Email</span> : hungvqfx29372@funix.edu.vn</li>
+                  <li><span>Địa chỉ</span> : Hải Phòng, Việt Nam</li>
+                  <li><span>Website</span> : www.thecodemagazine.com</li>
+                </ul>
+                <div class="info-icon">
+                  <td><i class="icon-facebook"></i></td>
+                  <td><i class="icon-github"></i></td>
+                  <td><i class="icon-gmail"></i></td>
+                </div>
+              </div>
+              <div class="form-container">
+                <p>Please enter your email.</p>
+                <form class="form">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter Email"
+                    class="email"
+                  />
+                  <p id="error" class="text-danger hidden">
+                    Error/Invalid Email!
+                  </p>
+                  <button class="button">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Info -->
+
+    <section id="job-info">
+      <div class="container item my-5">
+        <div class="row">
+          <div
+            class="experience sub-item border col-sm-6 col-12 col-lg-4"
+            style="margin-top: 20px"
+          >
+            <div class="div-title">
+              <h1>Kinh nghiệm</h1>
+              <td><i class="ic-toolbox"></i></td>
+            </div>
+            <div class="div-content">
+              <div class="hidden">
+                <ul>
+                  <li>
+                    <strong>Developer - Nhóm Lua</strong>
+                    <br /><em>25/7/2022 - 25/7/2023</em>
+
+                    <br />- Xây dựng, phát triển game dựa trên thiết kế và yêu
+                    cầu đã có.<br />- Phát triển và tối ưu hoá Code.<br />- Sử
+                    dụng ngôn ngữ chủ yếu là Lua.
+                  </li>
+                  <li class="lili">
+                    <strong>Developer - Nhóm Python</strong> <br /><em
+                      >25/7/2022 - 25/7/2023</em
+                    >
+
+                    <br />- Xây dựng, game dựa trên thiết kế và yêu cầu đã
+                    có.<br />- Phát triển và tối ưu hoá Code.<br />- Sử dụng
+                    ngôn ngữ chủ yếu là Python.
+                  </li>
+                </ul>
+              </div>
+              <button class="view-more-btn">View More</button>
+            </div>
+          </div>
+          <div
+            class="education col-sm-6 col-12 sub-item border col-lg-4"
+            style="margin-top: 20px"
+          >
+            <div class="div-title">
+              <h1>Học vấn</h1>
+              <td><i class="ic-pencil"></i></td>
+            </div>
+            <div class="div-content">
+              <div class="hidden">
+                <ul>
+                  <li>
+                    <strong>FUNiX</strong><br /><em>11/8/2023 - 26/1/2024</em>
+
+                    <br />- Tốt nghiệp chứng chỉ khoá CodeCombat<br />
+                    - (CSP201x + CSP202x + CSP203x)
+                  </li>
+                  <li class="lili">
+                    <strong>Tiếng anh</strong><br /><em
+                      >29/6/2018 - 29/6/2024</em
+                    ><br />- Secondary<br />
+                    - Intermediate - Upper-Intermediate
+                  </li>
+                </ul>
+              </div>
+              <button class="view-more-btn">View More</button>
+            </div>
+          </div>
+          <div
+            class="activity col-sm-6 col-12 sub-item border col-lg-4"
+            style="margin-top: 20px"
+          >
+            <div class="div-title">
+              <h1>Hoạt động</h1>
+              <td><i class="ic-megaphone"></i></td>
+            </div>
+            <div class="div-content">
+              <div class="hidden">
+                <ul>
+                  <li>
+                    <strong>Nhóm Làm Gaem</strong><br /><em
+                      >07/2022 - 07/2023</em
+                    >
+                    <br />- Vị trí Developer
+                  </li>
+                  <li class="lili">
+                    <strong>CodeCombat Storm Seige</strong><br /><em
+                      >10/2023 - 12/2023</em
+                    >
+                    <br />- Giải 5
+                  </li>
+                </ul>
+              </div>
+              <button class="view-more-btn">View More</button>
+            </div>
+          </div>
+          <div
+            class="hobby col-sm-6 col-12 sub-item border col-lg-4"
+            style="margin-top: 20px"
+          >
+            <div class="div-title">
+              <h1>Sở thích</h1>
+              <td><i class="ic-telescope"></i></td>
+            </div>
+            <div class="div-content">
+              <div class="hobbies hidden">
+                <td><i class="ic-megaphone"></i></td>
+                <td><i class="ic-strategy"></i></td>
+                <td><i class="ic-hotairballoon"></i></td>
+                <td><i class="ic-basket"></i></td>
+                <p class="des">Âm Nhạc</p>
+                <p class="des">Game</p>
+                <p class="des">Thám Hiểm</p>
+                <p class="des">Nấu Ăn</p>
+              </div>
+              <button class="view-more-btn">View More</button>
+            </div>
+          </div>
+          <div
+            class="language col-sm-6 col-12 sub-item border col-lg-4"
+            style="margin-top: 20px"
+          >
+            <div class="div-title">
+              <h1>Ngôn ngữ</h1>
+              <td><i class="ic-mic"></i></td>
+            </div>
+            <div class="div-content">
+              <div class="hidden">
+                <div class="child-div-title">
+                  <strong>English - Upper Intermediate</strong>
+                </div>
+                <div class="bar fill"></div>
+                <div class="bar fill"></div>
+                <div class="bar fill"></div>
+                <div class="bar fill"></div>
+                <div class="bar"></div>
+              </div>
+              <button class="view-more-btn">View More</button>
+            </div>
+          </div>
+          <div
+            class="skill col-sm-6 col-12 sub-item border col-lg-4"
+            style="margin-top: 20px"
+          >
+            <div class="div-title">
+              <h1>Kỹ năng</h1>
+              <td><i class="ic-tools-2"></i></td>
+            </div>
+            <div class="div-content">
+              <div class="hidden">
+                <div class="python">
+                  <div class="child-div-title">
+                    <strong>Python: Fundamental</strong>
+                  </div>
+                  <div class="bar fill"></div>
+                  <div class="bar fill"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+                <div class="web">
+                  <div class="child-div-title">
+                    <strong>HTML/CSS: Fundamental</strong>
+                  </div>
+                  <div class="bar fill"></div>
+                  <div class="bar fill"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+                <div class="jav">
+                  <div class="child-div-title">
+                    <strong>Javascript: Beginner</strong>
+                  </div>
+                  <div class="bar fill"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+                <div class="lua">
+                  <div class="child-div-title">
+                    <strong>Lua: Beginner</strong>
+                  </div>
+                  <div class="bar fill"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+              </div>
+              <button class="view-more-btn">View More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cc, Project -->
+    <section id="certificate" class="bg-grey">
+      <div class="container">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="section-content col-sm">
+          <div class="cer1">
+            <img src="images/Cert_DBI.png" width="150" />
+            <div>
+              <strong>CHỨNG CHỈ CODECOMBAT</strong><br />- Chứng chỉ thuộc
+              chương trình của <br />FUNiX
+            </div>
+          </div>
+          <div class="cer2">
+            <img src="images/Cert_PRF.png" width="150" />
+            <div><strong>CHỨNG CHỈ CAMBRIDGE</strong><br />- Starter, KET</div>
+          </div>
+          <div class="cer3">
+            <img src="images/Cert_WEB.png" width="150" />
+            <div>
+              <strong>CHỨNG CHỈ TIẾNG ANH</strong><br />- Primary<br />-
+              Secondary
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <div class="container">
+        <h1 class="section-title">Dự án</h1>
+        <div class="section-content">
+          <div class="pro1">
+            <img
+              src="images/project_1.png"
+              width="300"
+              class="container-fluid"
+            />
+            <p class="pro1-title">CV CÁ NHÂN</p>
+            <div class="item1">
+              <p class="time">2024</p>
+              <td><i class="icon-user"></i></td>
+              <p class="place">FUNiX</p>
+              <td><i class="icon-lightbulb"></i></td>
+              <p class="dev">Developer</p>
+            </div>
+            <div class="item2">
+              <p>Mô tả</p>
+              <p>Trang Web CV cá nhân online. Gồm các thông tin cá nhân</p>
+            </div>
+            <div class="item3">
+              <p>Nhiệm vụ</p>
+              <p>- Tạo ra trang Web, Sửa lỗi, Tối ưu hoá Code</p>
+            </div>
+            <div class="item4">
+              <p>Công nghệ</p>
+              <p>- HTML, CSS</p>
+            </div>
+          </div>
+          <div class="pro2">
+            <img
+              src="images/project_2.png"
+              width="300"
+              class="container-fluid"
+            />
+            <p class="pro2-title">TRANG WEB TẠP CHÍ CODE</p>
+            <div class="item1">
+              <p class="time">2024</p>
+              <td><i class="icon-user"></i></td>
+              <p>FUNiX</p>
+              <td><i class="icon-lightbulb"></i></td>
+              <p>Developer</p>
+            </div>
+            <div class="item2">
+              <p>Mô tả</p>
+              <p>
+                Trang Web tạp chí chủ yếu về lập trình và nơi để chia sẻ kinh
+                nghiệm cho nhau về coding
+              </p>
+            </div>
+            <div class="item3">
+              <p>Nhiệm vụ</p>
+              <p>- Tạo ra trang Web, Sửa lỗi, Tối ưu hoá Code</p>
+            </div>
+            <div class="item4">
+              <p>Công nghệ</p>
+              <p>- HTML, CSS</p>
+            </div>
+          </div>
+          <div class="pro3">
+            <img
+              src="images/project_3.png"
+              width="300"
+              class="container-fluid"
+            />
+            <p class="pro3-title">Game săn kho báu</p>
+            <div class="item1">
+              <p class="time">2023</p>
+              <td><i class="icon-user"></i></td>
+              <p>xxxx</p>
+              <td><i class="icon-lightbulb"></i></td>
+              <p>Developer</p>
+            </div>
+            <div class="item2">
+              <p>Mô tả</p>
+              <p>Game truy tìm kho báu</p>
+            </div>
+            <div class="item3">
+              <p>Nhiệm vụ</p>
+              <p>
+                - Tạo ra Game, Trang trí, Thiết kế, Sửa lỗi, Tối ưu hoá Code
+              </p>
+            </div>
+            <div class="item4">
+              <p>Công nghệ</p>
+              <p>- Lua</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <div class="facebook">
+          <td><i class="icon-facebook-circled"></i></td>
+          <p class="pt-3">Facebook</p>
+        </div>
+        <div class="github">
+          <td><i class="icon-github-circled"></i></td>
+          <p class="pt-3">Github</p>
+        </div>
+        <div class="gmail">
+          <td><i class="icon-gmail pt-1"></i></td>
+          <p class="pt-3">Gmail</p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

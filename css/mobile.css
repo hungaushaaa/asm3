@@ -1,0 +1,56 @@
+/* Sử dụng media query */
+
+@media screen and (max-width: 576px) {
+  a {
+    text-decoration: none;
+  }
+
+  .border-close {
+    display: none;
+  }
+
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  #certificate .section-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cer1 {
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px #d6c08d solid;
+    padding-bottom: 20px;
+  }
+
+  .cer2 {
+    padding: 0;
+    border: 0;
+  }
+
+  #footer .container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #footer p {
+    display: none;
+  }
+
+  #project .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #job-info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
